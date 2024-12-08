@@ -1,5 +1,4 @@
-#!/bin/zsh
-
+#!/usr/bin/env zsh
 
 # s - setup message 
 # p - password required
