@@ -21,10 +21,10 @@ fi
 brew update
 brew upgrade
 
-
 #------------------------------------------------------------
 # CLI Tools & Languages
 #------------------------------------------------------------
+brew install stow
 brew install hadolint
 brew install gcc
 brew install git
@@ -61,7 +61,8 @@ brew install --cask whatsapp
 brew install --cask spotify
 brew install --cask discord
 brew install --cask bitwarden
-brew install --cask topnotch
+brew install --cask parallels   # ensure terminal has permissions
+brew install --cask maccy
 
 # Note: Some apps like Shortcat or Screen Studio might not be available via brew.
 # You will need to install those manually.
@@ -73,10 +74,8 @@ brew install --cask topnotch
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Install zsh-syntax-highlighting & zsh-autosuggestions
 brew install zsh-syntax-highlighting
 brew install zsh-autosuggestions
-
 
 #------------------------------------------------------------
 # Final Notes
@@ -84,6 +83,6 @@ brew install zsh-autosuggestions
 echo "Setup complete! Review any manual installs needed (like App Store apps, Shortcat, Screen Studio, parallels, MS word, etc)."
 
 # Hor0, Magnet, Word/Excel, Parallels, Screen Studio, Shortcat, MonitorControlLite
-echo "Next steps: Set up dotfiles, create symlinks, and source your shell."
+echo "Next steps: Set up dotfiles, install Nerd Fonts."
 
 # https://www.nerdfonts.com/font-downloads

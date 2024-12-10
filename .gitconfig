@@ -2,6 +2,9 @@
 	email = marcusgeorgievski@outlook.com
 	name = marcusgeorgievski
 
+[init]
+    defaultBranch = main
+
 [alias]
 
 	# Concise status
